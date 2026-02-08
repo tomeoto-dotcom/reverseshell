@@ -3,7 +3,7 @@ import subprocess
 import platform
 import traceback
 
-SERVER_IP = "192.168.1.55"  # Remplace par ton serveur
+SERVER_IP = "0.0.0.0"  # Remplace par ton serveur la machine qui controle
 PORT = 9000
 TOKEN = "SECRET_TOKEN"
 
@@ -64,3 +64,4 @@ while True:
         # reconnecte après 5 sec si serveur indisponible
         import time
         time.sleep(5)
+
